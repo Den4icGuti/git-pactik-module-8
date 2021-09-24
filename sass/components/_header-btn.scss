@@ -1,0 +1,37 @@
+.btn{
+    width: 160px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+    border: 1px solid  #FF6C00;
+    border-radius: 25px;
+    background-color: transparent;
+    transition: background-color 500ms linear;
+    color:#ffffff;
+    }
+
+    
+.btn{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    
+
+    &:hover, 
+    &:focus{
+        background: var(--orange);
+    }
+
+    }
+    
+  
+    
+    .header-right__button{
+        color:#ffffff;
+    } 

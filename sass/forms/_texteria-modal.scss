@@ -1,0 +1,54 @@
+.tittle-textarea{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    
+    
+    letter-spacing: 0.01em;
+    
+    color: #757575;
+    display: block;
+    padding-bottom: 4px;
+    padding-top: 10px;
+    }
+    
+    .comment-modal{
+        width: 100%;
+        height: 120px;
+        resize: none;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 3px;
+        display: block;
+        padding-left: 16px;
+        padding-top: 12px;
+    
+        margin-bottom: 20px;
+
+        outline: none;
+     
+        transition: border-color 250ms linear;
+
+        &::placeholder{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            
+            
+            letter-spacing: 0.01em;
+            
+            color: #757575;
+            display: block;
+            
+            
+            }
+
+
+            &:hover{
+                border-color: blue;
+            }
+    }
+    
+    
+    

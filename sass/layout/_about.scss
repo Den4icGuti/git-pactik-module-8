@@ -1,0 +1,41 @@
+
+.about-content__text{
+    @include about-text(14px,1.8 , 0.02em,var(--main-text-color) ,500px ,40px );
+  } 
+  
+
+.about-wrap{
+    display: flex;
+    
+}
+.about-list{
+    display: flex;
+    margin-right: 64px;
+}
+
+.about-list__item{
+    margin-right: 30px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+    
+    
+}
+
+.about-content__title{
+  
+    margin-bottom: 20px;
+   
+}
+
+.about-after-text{
+  
+    
+    margin-bottom: 20px;
+
+}
+
+
+
+ 

@@ -1,0 +1,19 @@
+.after-text{
+
+   
+    @media(min-width: 480px){
+      @include after-text(16px,1.6,00.02em);
+    }
+  }
+
+
+.after_text_light{
+    color: var(--pale);
+}
+
+.after-text_color_light{
+
+  color: var(--about-text-color);
+
+}
+    

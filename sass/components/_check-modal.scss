@@ -1,0 +1,62 @@
+
+.label-check{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+  
+}
+
+
+
+.icon-check{
+    border: 2px solid #303030;
+    border-radius: 2px;
+   
+    width: 15px;
+    height: 15px;
+
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.link-condition{
+    margin-left: 4px;
+}
+
+.checkbox:checked + .label-check  > .icon-check{
+ background-color: var(--orange);
+ border: none;
+
+ &:checked + 
+ &::before{
+    background-color: var(--orange);
+    border-color: transparent;
+ 
+}
+ 
+}
+
+.check-form{
+    position: absolute;
+ }
+ 
+ 
+ 
+ .inner-check{
+     fill: var(--black);
+ }
+ 

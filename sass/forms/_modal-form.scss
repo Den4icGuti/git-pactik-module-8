@@ -1,0 +1,65 @@
+.modal-form-input{
+
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 3px;
+
+    padding-left: 30px;
+  
+    outline: none;
+  
+    transition: border-color 250ms linear;
+    
+    &::placeholder{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: calc(12 / 14);
+        
+      
+
+        letter-spacing: 0.01em;
+        
+        color: #757575;
+        }
+
+        &:hover{
+            border-color: blue;
+          
+        }
+
+}
+
+.modal-form-icon{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+
+
+
+.title-text-form{
+
+font-weight: normal;
+font-size: 12px;
+line-height: calc(12 / 14);
+
+letter-spacing: 0.01em;
+
+color: #757575;
+padding-top: 10px;
+padding-bottom: 4px;
+
+
+
+}
+
+.modal-form-field{
+    display: flex;
+    flex-direction: column;
+   
+
+}

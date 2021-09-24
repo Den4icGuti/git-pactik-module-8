@@ -1,0 +1,65 @@
+@mixin about-text ($fz,$lh, $ls, $color, $mw, $mb) {
+   
+    font-size: $fz;
+    line-height: $lh;
+    letter-spacing:calc($lh / $ls);
+    color: $color;
+    max-width: $mw;
+    margin-bottom: $mb;
+}
+
+@mixin title-copy($fw,$fz,$lh,$ls,$color) {
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    letter-spacing: $ls;
+    color: $color;
+}
+
+@mixin address-salon($fz,$line-height) {
+    font-style: normal;
+    font-weight: normal;
+    font-size: $fz;
+    line-height: $line-height;
+    /* or 167% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #9DA4BD;
+
+    text-decoration: none;
+
+    transition: color 250ms linear;
+    display: block;
+    padding-bottom: 30px;
+
+}
+
+
+@mixin hero-title($mt,$mb,$fw,$fz,$lh,$ls,$color,) {
+        margin-top: $mt;
+        margin-bottom: $mb;
+        // font-family: $ff;
+        font-weight: $fw;
+        font-size: $fz;
+        line-height: $lh;
+        letter-spacing: $ls;
+        color: $color;
+    }
+
+
+
+    @mixin after-text($fz,$lh,$ls) {
+        font-size: $fz;
+        line-height: $lh;
+        letter-spacing: $ls;
+    }
+
+
+    @mixin section-title($fw,$fz,$lh,$ls) {
+       
+        font-weight: $fw;
+        font-size: $fz;
+        line-height: $lh;
+        letter-spacing: $ls;
+    }

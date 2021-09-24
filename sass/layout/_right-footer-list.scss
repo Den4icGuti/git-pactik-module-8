@@ -1,0 +1,114 @@
+
+
+
+.contacts{
+    color: var(--color-contacts);
+    display: block;
+    padding-bottom: 30px;
+    }
+    
+    .contact-for-appointment{
+        padding-left: 100px;
+      
+        
+    }
+    
+    .address-salon{
+       @include address-salon(18px,30px);
+
+       &:hover,
+       &:focus
+       {
+           color: var(--color-online-appointment);
+       }
+       
+        
+    }
+    
+   
+    .contact{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--pale);
+    
+    transition: color 250ms linear;
+    
+    display: block;
+    padding-bottom: 30px;
+    
+    
+    }
+    
+    .contact:hover, 
+    .contact:focus{
+        color:var(--white);
+    }
+    
+    .mail{
+    
+    font-style: normal;
+    font-size: 18px;
+    line-height: calc(30 / 12);
+    /* identical to box height, or 167% */
+    
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    display: block;
+    padding-bottom: 70px;
+    color: var(--pale);
+    
+    text-decoration: none;
+    transition: color 250ms linear;
+    
+    
+    }
+    
+    .mail:hover, .mail:focus{
+        color:var(--white) ;
+    }
+    .working-hours{
+    color: var(--color-working-hours);
+    
+    }
+    
+    
+    
+    .opening-hours{
+        font-size: 18px;
+        line-height: 1.6;
+        /* identical to box height, or 167% */
+        
+        letter-spacing: 0.02em;
+    
+        color: var(--color--opening-hours);
+    
+      display: block;
+      padding-top: 10px;
+    }
+    
+    
+    
+    
+    .contact-wrapper{
+        background-color: #191C26;
+        background-image: url(../img/footer.png);
+        background-size: 50% auto;
+        background-position: right center;
+        background-repeat: no-repeat;
+       
+        }
+    
+    .contact-wrapper .container{
+        display: flex;
+    }
+    
+    
+    
+    .title-foter{
+        position: relative;
+    }
+    

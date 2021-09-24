@@ -1,0 +1,11 @@
+.section-title{
+
+    @include section-title(700,42px,1.17,00.05em);
+    
+    }
+
+
+    .section-title_color_dark{
+          color: var(--black);
+          
+    }
