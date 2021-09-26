@@ -93,13 +93,17 @@
        
        
         <!-- about -->
-        <!-- <section class="about section">
+        <section class="about section">
             
            <div class="container about-wrap">
 
             <ul class="about-list">
                 <li class="about-list__item list">
-                    <img src="./img/About/about-img-1.jpg" width="270" height="445" alt="Барбер бреет бороду">
+                    <picture>
+                        <source srcset="./img/about/about-img-1.jpg 1x, ./img/about/about-img-1-x-2.jpg 2x" media="(min-width:1200px)">
+                        <source srcset="./img/about/tablet-1 x-1.jpg x1, ./img/about/tablet-2 x-2.jpg x1" media="(min-width:1200px)">
+                    </picture>
+                    <img srcset="./img/about/about-img-1.jpg"  width="270" height="445" alt="Барбер бреет бороду">
                 </li>
                 <li class="about-list__item list" >
                     <img src="./img/About/about-img-2.jpg"  width="270" height="445" alt="Барбер стрежет клиента">
@@ -123,7 +127,7 @@
                 <button class="about-content__btn btn" type="button"  data-modal-open>Онлайн-запись</button>
 
            </div>
-        </section> -->
+        </section>
         <!-- /about -->
 
         <!-- servise -->

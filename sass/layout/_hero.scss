@@ -26,6 +26,8 @@
            display: flex;
         }
 
+        
+
     }
     .hero-list{
        
@@ -88,6 +90,10 @@
        
     
         padding: 208px 0 183px 31px ;
+        @media(min-width: 1200px){
+           padding: 272px 0 260px 91px;
+         }
+ 
     }
     
     

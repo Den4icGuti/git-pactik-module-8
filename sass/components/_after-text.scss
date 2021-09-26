@@ -3,7 +3,16 @@
    
     @media(min-width: 480px){
       @include after-text(16px,1.6,00.02em);
+      min-width: 306px;
     }
+
+    @media(min-width: 1200px){
+      @include after-text(16px,1.6,00.02em);
+      max-width: 403px;
+     
+    }
+
+
   }
 
 

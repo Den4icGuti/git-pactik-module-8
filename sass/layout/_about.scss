@@ -1,6 +1,13 @@
 
 .about-content__text{
     @include about-text(14px,1.8 , 0.02em,var(--main-text-color) ,500px ,40px );
+
+    @media (min-width:480px)  {
+        max-width: 330px;
+      }
+      @media (min-width:768px)  {
+        max-width: 418px;
+      }
   } 
   
 
@@ -9,16 +16,37 @@
     
 }
 .about-list{
-    display: flex;
-    margin-right: 64px;
+   margin-right: 30px;
+    display: none;
+    @media screen and (min-width:768px) {
+      display: flex;
+
+      flex-direction: column;
+    
+    }
+
+    @media  screen and (min-width:1200px) {
+        display: flex;
+        margin-right: 64px;
+      
+      }
 }
 
 .about-list__item{
-    margin-right: 30px;
+    margin-top: 30px;
+    @media (min-width:1200px) {
+       
+         margin-left: 30px;
+
+         margin-top: unset;
+         
+      }
 
     &:last-child{
         margin-right: 0;
     }
+
+   
     
     
 }

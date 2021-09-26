@@ -99,8 +99,8 @@ img {
 }
 
 .section {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 84px;
+  padding-bottom: 84px;
 }
 
 .visually-hidden {
@@ -368,6 +368,16 @@ img {
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.02em;
+    min-width: 306px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .after-text {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    max-width: 403px;
   }
 }
 
@@ -379,11 +389,23 @@ img {
   color: var(--about-text-color);
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.17;
-  letter-spacing: 0.05em;
+@media (min-width: 480px) and (max-width: 768px) {
+  .section-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .section-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+  }
 }
 
 .section-title_color_dark {
@@ -526,6 +548,12 @@ img {
   padding: 208px 0 183px 31px;
 }
 
+@media (min-width: 1200px) {
+  .hero-main {
+    padding: 272px 0 260px 91px;
+  }
+}
+
 .hero-main__pre-text {
   color: rgba(157, 164, 189, 0.6);
 }
@@ -570,17 +598,50 @@ img {
   margin-bottom: 40px;
 }
 
+@media (min-width: 480px) {
+  .about-content__text {
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-content__text {
+    max-width: 418px;
+  }
+}
+
 .about-wrap {
   display: flex;
 }
 
 .about-list {
-  display: flex;
-  margin-right: 64px;
+  margin-right: 30px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-list {
+    display: flex;
+    margin-right: 64px;
+  }
 }
 
 .about-list__item {
-  margin-right: 30px;
+  margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+  .about-list__item {
+    margin-left: 30px;
+    margin-top: unset;
+  }
 }
 
 .about-list__item:last-child {
