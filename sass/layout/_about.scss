@@ -14,6 +14,7 @@
 .about-wrap{
     display: flex;
     
+  
 }
 .about-list{
    margin-right: 30px;
@@ -29,6 +30,7 @@
 
     @media  screen and (min-width:1200px) {
         display: flex;
+        flex-direction: row;
         margin-right: 64px;
       
       }
@@ -38,9 +40,11 @@
     margin-top: 30px;
     @media (min-width:1200px) {
        
+      display: flex;
+      flex-direction: row;
          margin-left: 30px;
 
-         margin-top: unset;
+        
          
       }
 
@@ -54,8 +58,24 @@
 }
 
 .about-content__title{
+
+
+   margin-bottom: 20px;
+
+   
+
+   @media screen and  (min-width:768px) {
+     max-width: 330px;
+    
+   }
+
+
+   @media   (min-width:1200px) {
+    max-width: 500px;
+  }
+
   
-    margin-bottom: 20px;
+   
    
 }
 
