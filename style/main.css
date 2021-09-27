@@ -80,9 +80,9 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .container {
-    min-width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -101,6 +101,20 @@ img {
 .section {
   padding-top: 84px;
   padding-bottom: 84px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 91px;
+    padding-bottom: 91px;
+  }
 }
 
 .visually-hidden {
@@ -606,7 +620,7 @@ img {
 
 @media (min-width: 768px) {
   .about-content__text {
-    max-width: 418px;
+    max-width: 330px;
   }
 }
 
