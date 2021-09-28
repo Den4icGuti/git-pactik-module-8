@@ -5,16 +5,26 @@
  
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (max-width:480px) {
+   
+        width: 418px;
+      }
+
+  
  }
  
  
  .praices-list-left{
     
   background-image:  linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+
+ 
  }
  
  .praices-list-right{
   background-image:    linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+  
  }
  
  .prices-pre-text{
@@ -34,7 +44,11 @@
  .prices-title{
      color: var(--prices-title);
      margin-bottom: 74px;
-    
+    @media(max-width:480px) {
+        font-size: 42px;
+        display: block;
+        text-align: center;
+    }
  }
  
  .prices-wrap-list{
@@ -44,6 +58,14 @@
  
  .prices-wrap-list{
      display: flex;
+
+     @media (max-width:480px) {
+         display: flex;
+         flex-direction: column;
+
+         
+
+     }
      
  }
  
@@ -63,6 +85,11 @@
      
  width: 50%;
  padding: 30px 40px;
+ @media (max-width:480px) {
+    max-width: 418px;
+    width: 100%;
+  
+  }
  
  
  }
@@ -111,6 +138,8 @@
  
     margin-right: 6px;
     margin-left: 6px;
+   
  } 
+ 
  
  
